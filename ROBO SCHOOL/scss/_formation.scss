@@ -1,0 +1,36 @@
+.formation {
+  padding-top: 120px;
+}
+.formation-explanation {
+  max-width: 891px;
+  > p {
+    color: $color-dark;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 160%;
+  }
+}
+.p-style {
+  font-weight: 600;
+}
+.quantity {
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+.quantity-block {
+  width: 258px;
+  &__figures {
+    color: $color-red;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 160%;
+  }
+  &__description {
+    color: rgba(20, 16, 36, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+  }
+}
